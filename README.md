@@ -12,6 +12,8 @@ Run 'npm run serve'\
 # Setup for python
 Cd into /server\
 Create a virtual environment called 'env'\
+This can be done with 'python -m venv env'\
+Activate the virtual environment:\
 Linux 'source env/bin/activate'\
 Windows '.\env\Scripts\activate'\
 Run python3.9 server.py\
