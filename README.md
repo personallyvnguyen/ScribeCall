@@ -11,9 +11,8 @@ Run 'npm run serve'\
 
 # Setup for python
 Cd into /server\
-Linux 'source env/bin/activate\'
-
-Windows '.\env\Scripts\activate'
+Linux 'source env/bin/activate'\
+Windows '.\env\Scripts\activate'\
 Run python3.9 server.py\
 
 # Feature 1 - Recording audio and playing it back on the website.
