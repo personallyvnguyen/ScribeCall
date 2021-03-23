@@ -12,6 +12,7 @@ Run 'npm run serve'\
 # Setup for python
 Cd into /server\
 Linux 'source env/bin/activate\'
+
 Windows '.\env\Scripts\activate'
 Run python3.9 server.py\
 
