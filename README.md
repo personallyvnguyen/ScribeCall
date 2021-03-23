@@ -5,7 +5,7 @@ All voice inputs are converted into text for the other person.\
 
 # Setup for client.
 Install node.\
-Run npm install in /client\
+Run 'npm install' in /client\
 Run 'npm run serve'\
 
 # Setup for python
