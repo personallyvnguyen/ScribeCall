@@ -7,6 +7,7 @@ Coded for CS231.
 # Setup for client.
 Install node.\
 Run 'npm install' in /client\
+(If 'npm install' gives and error, run 'npm cache clean --force', and run 'npm install' again)\
 Run 'npm run serve'\
 
 # Setup for python
