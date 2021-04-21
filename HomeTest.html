@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<style>
+  body {
+    font-size: 18px;
+    color: #292b33
+   }
+  p {
+    line-height: 1.5
+    margin: 0 0 20px 0;
+  }
+</style>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ScribeCall Home Page</title>
+  </head>
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+    <header class="container">
+      <div class="row">
+        <div class="col-md-10 col-mid-offset-1">
+          <h1> Welcome to ScribeCall</h1>
+          <p class="lead"> Made by Adam Hyman, Nathan Chau, and Van Nguyen</p>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-xs-12 col-md-4 col-md-offset-1">
+          <p>
+            <strong>What is ScribeCall?</strong>
+          </p>
+          <p> ScribeCall is a voice to text program written in Python.</p>
+          <p> All voice inputs are converted into text for the other person.</p>
+          <p> ScribeCall converts the voice to text in real time.</p>
+          <p> This program will help users who have trouble hearing.</p>
+          <p>
+            <strong>How to use ScribeCall</strong>
+          </p>
+          <p> To use the program, press the button to record what you want to say.</p>
+          <p> When you are done, press to stop recording and you will see what you have said.</p>
+        </div>
+      </div>
+    </div>
+    {% endblock %}
+  </body>
+</html>
